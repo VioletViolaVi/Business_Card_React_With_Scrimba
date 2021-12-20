@@ -1,20 +1,17 @@
+import Twitter from "./Icons/Twitter";
+import Instagram from "./Icons/Instagram";
+import Facebook from "./Icons/Facebook";
+import GitHub from "./Icons/GitHub";
+
 const Footer = () => {
   return (
     <div>
       <footer>
         <ul>
-          <li>
-            <i class="fab fa-twitter-square"></i>
-          </li>
-          <li>
-            <i class="fab fa-facebook-square"></i>
-          </li>
-          <li>
-            <i class="fab fa-instagram-square"></i>
-          </li>
-          <li>
-            <i class="fab fa-github-square"></i>
-          </li>
+          <Twitter />
+          <Facebook />
+          <Instagram />
+          <GitHub />
         </ul>
       </footer>
     </div>
