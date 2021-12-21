@@ -8,11 +8,15 @@
 
 body {
   cursor: default;
-  background-color: #4A4E74;
+  background-color: #4a4e74;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 /* photo *************************************************/

@@ -1,6 +1,8 @@
 import Name from "./Name";
 import JobTitle from "./JobTitle";
-import ContactDetails from "./ContactDetails";
+import WebLink from "./WebLink";
+import Email from "./Email";
+import LinkedIn from "./LinkedIn";
 
 const ProfessionalInfo = () => {
   return (
@@ -8,8 +10,10 @@ const ProfessionalInfo = () => {
       <ul>
         <Name />
         <JobTitle />
+        <WebLink />
+        <Email />
+        <LinkedIn />
       </ul>
-      <ContactDetails />
     </section>
   );
 };
