@@ -7,7 +7,7 @@ import LinkedIn from "./LinkedIn";
 const ProfessionalInfo = () => {
   return (
     <section>
-      <ul>
+      <ul className="professional-info">
         <Name />
         <JobTitle />
         <WebLink />

@@ -19,6 +19,15 @@ ul {
   list-style: none;
 }
 
+/* whole bg *************************************************/
+.container {
+  background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 /* photo *************************************************/
 .profile-pic img {
   width: 17rem;
@@ -28,4 +37,11 @@ ul {
   margin-top: 2rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+
+/* professional info *************************************************/
+.professional-info {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
