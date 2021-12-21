@@ -2,11 +2,11 @@ import Image from "./profile-pic.png";
 
 const Photo = () => {
   return (
-    <div>
+    <section>
       <figure className="profile-pic">
         <img src={Image} alt="Cartoon profile." />
       </figure>
-    </div>
+    </section>
   );
 };
 

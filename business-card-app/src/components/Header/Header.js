@@ -3,10 +3,10 @@ import ProfessionalInfo from "./ProfessionalInfo/ProfessionalInfo";
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <Photo />
       <ProfessionalInfo />
-    </div>
+    </header>
   );
 };
 

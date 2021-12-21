@@ -4,13 +4,13 @@ import ContactDetails from "./ContactDetails";
 
 const ProfessionalInfo = () => {
   return (
-    <div>
+    <section>
       <ul>
         <Name />
         <JobTitle />
       </ul>
       <ContactDetails />
-    </div>
+    </section>
   );
 };
 

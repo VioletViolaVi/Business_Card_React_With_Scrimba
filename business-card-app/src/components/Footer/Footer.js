@@ -5,16 +5,14 @@ import GitHub from "./Icons/GitHub";
 
 const Footer = () => {
   return (
-    <div>
-      <footer>
-        <ul>
-          <Twitter />
-          <Facebook />
-          <Instagram />
-          <GitHub />
-        </ul>
-      </footer>
-    </div>
+    <footer>
+      <ul>
+        <Twitter />
+        <Facebook />
+        <Instagram />
+        <GitHub />
+      </ul>
+    </footer>
   );
 };
 

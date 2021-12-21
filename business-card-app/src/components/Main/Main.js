@@ -3,10 +3,10 @@ import Interests from "./Interests/Interests";
 
 const Main = () => {
   return (
-    <div>
+    <main>
       <About />
       <Interests />
-    </div>
+    </main>
   );
 };
 
