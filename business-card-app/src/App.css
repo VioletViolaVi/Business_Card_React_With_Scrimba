@@ -101,3 +101,37 @@ ul {
   padding: 0 0.5rem 0 0.5rem;
   color: #ffffff;
 }
+
+/* about *************************************************/
+.about {
+  margin: 1rem;
+}
+
+.about h2 {
+  color: #2b283a;
+  margin-top: 2rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.about p {
+  font-size: 0.8rem;
+  color: #4a4e74;
+}
+
+/* interests *************************************************/
+.interests h2 {
+  color: #2b283a;
+  margin-top: 2rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.interests p {
+  font-size: 0.8rem;
+  color: #4a4e74;
+}
+
+.interests {
+  margin: 1rem;
+}

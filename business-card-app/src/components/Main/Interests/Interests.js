@@ -1,6 +1,6 @@
 const Interests = () => {
   return (
-    <section>
+    <section className="interests">
       <h2>Interests</h2>
       <p>
         Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
