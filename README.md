@@ -2,7 +2,7 @@
 
 This project is about creating a static website displaying a business card using React, HTML5 CSS3 and other technologies. This project was assigned by [Scrimba]("https://scrimba.com/") on their [Learn React course]("https://scrimba.com/learn/learnreact").
 
-# Technologies Used:
+# Technologies Used
 
 - [React](https://reactjs.org/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
