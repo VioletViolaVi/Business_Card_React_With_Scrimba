@@ -8,8 +8,20 @@
 
 body {
   cursor: default;
+  background-color: #4A4E74;
 }
 
 a {
   text-decoration: none;
+}
+
+/* photo *************************************************/
+.profile-pic img {
+  width: 17rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }

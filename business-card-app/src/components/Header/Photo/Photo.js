@@ -3,7 +3,7 @@ import Image from "./profile-pic.png";
 const Photo = () => {
   return (
     <div>
-      <figure>
+      <figure className="profile-pic">
         <img src={Image} alt="Cartoon profile." />
       </figure>
     </div>
