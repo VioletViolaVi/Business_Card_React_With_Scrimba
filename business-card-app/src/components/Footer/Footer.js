@@ -6,7 +6,7 @@ import GitHub from "./Icons/GitHub";
 const Footer = () => {
   return (
     <footer>
-      <ul>
+      <ul className="footer">
         <Twitter />
         <Facebook />
         <Instagram />

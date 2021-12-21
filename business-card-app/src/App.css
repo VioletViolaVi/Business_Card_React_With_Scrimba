@@ -24,8 +24,11 @@ ul {
   background-color: white;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 2rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 /* photo *************************************************/
@@ -39,7 +42,7 @@ ul {
   border-top-right-radius: 1rem;
 }
 
-/* professional info *************************************************/
+/* professional info bg *************************************************/
 .professional-info {
   text-align: center;
   display: grid;
@@ -47,6 +50,7 @@ ul {
   grid-gap: 0.1rem;
 }
 
+/* name */
 .professional-info li:nth-child(1) {
   margin-top: 1rem;
   color: #2b283a;
@@ -54,6 +58,7 @@ ul {
   grid-column-end: 3;
 }
 
+/* job title */
 .professional-info li:nth-child(2) {
   color: #f47d27;
   font-size: 1rem;
@@ -61,6 +66,7 @@ ul {
   grid-column-end: 3;
 }
 
+/* web link */
 .professional-info li:nth-child(3) {
   color: #4a4e74;
   margin-top: 0.5rem;
@@ -69,6 +75,7 @@ ul {
   grid-column-end: 3;
 }
 
+/* email */
 .professional-info li:nth-child(4) {
   margin-top: 1rem;
 }
@@ -85,6 +92,7 @@ ul {
   color: #1e1f26;
 }
 
+/* linkedin */
 .professional-info li:nth-child(5) {
   margin-top: 1rem;
 }
@@ -134,4 +142,31 @@ ul {
 
 .interests {
   margin: 1rem;
+}
+
+/* footer *************************************************/
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  background-color: #d5d4d8;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem;
+}
+
+.fab.fa-twitter-square,
+.fab.fa-facebook-square,
+.fab.fa-instagram-square,
+.fab.fa-github-square {
+  color: #918e9b;
+  font-size: 1.5rem;
+}
+
+.fab.fa-twitter-square {
+  margin-left: 1.5rem;
+}
+
+.fab.fa-github-square {
+  margin-right: 1.5rem;
 }
