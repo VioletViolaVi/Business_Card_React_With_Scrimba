@@ -1,9 +1,9 @@
 /* resets *************************************************/
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -42,6 +42,62 @@ ul {
 /* professional info *************************************************/
 .professional-info {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.1rem;
+}
+
+.professional-info li:nth-child(1) {
+  margin-top: 1rem;
+  color: #2b283a;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.professional-info li:nth-child(2) {
+  color: #f47d27;
+  font-size: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.professional-info li:nth-child(3) {
+  color: #4a4e74;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.professional-info li:nth-child(4) {
+  margin-top: 1rem;
+}
+
+.professional-info li:nth-child(4) a {
+  border: #918e9b 0.1rem solid;
+  border-radius: 0.3rem;
+  padding: 0.5rem 2rem 0.3rem 0.5rem;
+  color: #1e1f26;
+}
+
+.fas.fa-envelope {
+  padding: 0 1rem 0 0.5rem;
+  color: #1e1f26;
+}
+
+.professional-info li:nth-child(5) {
+  margin-top: 1rem;
+}
+
+.professional-info li:nth-child(5) a {
+  background-color: #297fe5;
+  border: #297fe5 0.1rem solid;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  color: #ffffff;
+}
+
+.fab.fa-linkedin {
+  padding: 0 0.5rem 0 0.5rem;
+  color: #ffffff;
 }

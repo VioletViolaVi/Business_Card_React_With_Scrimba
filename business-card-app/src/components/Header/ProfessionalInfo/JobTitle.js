@@ -1,5 +1,9 @@
 const JobTitle = () => {
-  return <li>Frontend Developer</li>;
+  return (
+    <li>
+      <p>Frontend Developer</p>
+    </li>
+  );
 };
 
 export default JobTitle;
