@@ -9,6 +9,7 @@ This project is about creating a static website displaying a business card using
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Font Awesome](https://fontawesome.com/)
+- [Figma](https://www.figma.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Chrome Development Tools](https://developer.chrome.com/docs/)
 - [VS Code](https://code.visualstudio.com/)
